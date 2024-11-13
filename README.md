@@ -1,11 +1,68 @@
 # Hotel Management API
 
-Welcome to the **Hotel Management API**, a RESTful service designed for managing hotel information, including CRUD operations for hotels and their images. This project demonstrates the use of Node.js, Express, and Multer for file uploads in a hotel management system.
+A simple and powerful API for managing hotels, including functionality to get hotel details, add new hotels, update hotel information, and upload images for hotels. This project is built with **Node.js**, **Express.js**, and **Multer** for handling file uploads.
+
+## Features
+
+This project provides the following API endpoints:
+
+### 1. **Get a list of all hotels**
+   - **Endpoint**: `GET /hotels`
+   - **Description**: Retrieve a list of all hotels in the system.
+   - **Response**: A JSON array of hotel objects.
+
+### 2. **Get a hotel by ID**
+   - **Endpoint**: `GET /hotels/:id`
+   - **Description**: Retrieve details of a hotel by its unique ID.
+   - **Parameters**: 
+     - `id` (Hotel ID): The ID of the hotel you want to fetch.
+   - **Response**: A JSON object containing the hotel details.
+
+### 3. **Add a new hotel**
+   - **Endpoint**: `POST /hotels`
+   - **Description**: Create a new hotel entry in the system.
+   - **Request Body**: A JSON object containing the following properties:
+     ```json
+     {
+       "title": "Hotel Name",
+       "location": "City, Country",
+       "rooms": 10,
+       "rating": 4.5,
+       "description": "Hotel description",
+       "guest_count": 20,
+       "bedroom_count": 10,
+       "bathroom_count": 5,
+       "amenities": ["WiFi", "Pool", "Gym"],
+       "address": "123 Street, City",
+       "latitude": 12.3456,
+       "longitude": 78.9012,
+       "room_information": "Information about rooms"
+     }
+     ```
+   - **Response**: The newly created hotel object.
+
+### 4. **Update an existing hotel**
+   - **Endpoint**: `PUT /hotels/:id`
+   - **Description**: Update the details of an existing hotel.
+   - **Parameters**: 
+     - `id` (Hotel ID): The ID of the hotel you want to update.
+   - **Request Body**: A JSON object containing the updated hotel details.
+   - **Response**: The updated hotel object.
+
+### 5. **Upload images for a hotel**
+   - **Endpoint**: `POST /hotels/images`
+   - **Description**: Upload one or more images for a hotel and update the hotel record with the new image URLs.
+   - **Request Body**: Form-data containing the `hotelId` and the `images`:
+     - `hotelId`: The ID of the hotel you want to associate images with.
+     - `images`: The images to upload (e.g., `image1.jpg`, `image2.jpg`).
+   - **Response**: A JSON object with a success message and the URLs of the uploaded images.
+
+---
 
 ## Project Structure
 
 ```plaintext
-hotel-management-api/
+PRACTICE/
 │
 ├── uploads/                # Directory for storing uploaded images
 │   ├── image1.jpg          # Sample image 1
@@ -15,58 +72,3 @@ hotel-management-api/
 ├── server.js               # Main application code
 └── package.json            # npm package configuration file
 ```
-
-
-## Table of Contents
-1. [About](#about)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [API Endpoints](#api-endpoints)
-7. [Running Tests](#running-tests)
-8. [Contributing](#contributing)
-9. [License](#license)
-
-## About
-
-This Hotel Management API is a backend application built to manage hotel data, including:
-- Creating, reading, updating, and deleting hotel details.
-- Uploading images to associate with a hotel.
-- Retrieving uploaded images as part of hotel details.
-
-The API supports handling hotel information such as name, location, rooms, and rating, along with the ability to upload multiple images.
-
-## Features
-
-- **Create a new hotel**: Add hotels with details like title, location, number of rooms, and rating.
-- **View hotel details**: Retrieve information about a specific hotel by its ID.
-- **Update hotel information**: Modify existing hotel details.
-- **Image Upload**: Upload images and associate them with a specific hotel.
-- **Get hotel images**: Retrieve a list of uploaded images for each hotel.
-  
-## Technologies Used
-
-- **Node.js**: JavaScript runtime used for building the server.
-- **Express**: Web framework for Node.js used to handle HTTP requests.
-- **Multer**: Middleware for handling `multipart/form-data`, used for image uploads.
-- **Jest**: Testing framework for running API tests.
-- **fs (File System)**: Built-in Node.js module for handling file operations.
-- **Path**: Node.js module used for file path manipulation.
-
-## Installation
-
-To run the Hotel Management API locally, follow these steps:
-
-### Prerequisites
-Ensure you have the following installed on your machine:
-- [Node.js](https://nodejs.org/en/)
-- [npm](https://www.npmjs.com/)
-
-### Steps to Install:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/hotel-management-api.git
-   cd hotel-management-api
-
