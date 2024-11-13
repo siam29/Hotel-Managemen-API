@@ -1,0 +1,1392 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "title": "Updated Test Hotel",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.8,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473500118-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473536454-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473536455-1731413015486-test.jpg",
+        "/uploads/1731474093535-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731474093537-1731413015486-test.jpg",
+        "/uploads/1731474526190-image1.jpg"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Hotel Paradise",
+      "location": "Los Angeles",
+      "rooms": 80,
+      "rating": 4,
+      "images": [
+        "/uploads/image3.jpg",
+        "/uploads/image5.jpg"
+      ],
+      "description": "A luxurious getaway in Los Angeles.",
+      "guest_count": 150,
+      "bedroom_count": 40,
+      "bathroom_count": 20,
+      "amenities": [
+        "Spa",
+        "Free Parking",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "Jane Smith",
+        "contact": "jane.smith@example.com"
+      },
+      "address": "456 Paradise Rd, Los Angeles, CA",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-paradise",
+          "room_slug": "room-1",
+          "room_image": "image3.jpg",
+          "room_title": "Mountain View Suite",
+          "bedroom_count": 1,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hotel Sunshine3",
+      "location": "New York",
+      "rooms": 103,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731401943736-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731401970762-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731401970767-image7.png",
+        "/uploads/1731409694824-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731409694828-image7.png",
+        "/uploads/1731414190253-image6.png",
+        "/uploads/1731414190254-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "location": "New York12",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Hotel Paradise",
+      "location": "New York12",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Hotel Paradise",
+      "location": "New York12",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Hotel Paradise13",
+      "location": "New York12",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Hotel Paradise15",
+      "location": "New York15",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Hotel Paradise15",
+      "location": "New York15",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Hotel Paradise15",
+      "location": "New York15",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Hotel Sunshine",
+      "slug": "hotel-sunshine",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Hotel Sunshine21",
+      "slug": "hotel-sunshine21",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Hotel Sunshine21",
+      "slug": "hotel-sunshine21",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Hotel Sunshine23",
+      "slug": "hotel-sunshine23",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.5,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test City",
+      "rooms": 10,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 25,
+      "title": "New Hotel",
+      "slug": "new-hotel",
+      "location": "New City",
+      "rooms": 20,
+      "rating": 4.8,
+      "images": []
+    },
+    {
+      "id": 26,
+      "title": "Updated Hotel",
+      "slug": "old-hotel",
+      "location": "Old City",
+      "rooms": 15,
+      "rating": 4.2,
+      "images": []
+    },
+    {
+      "id": 27,
+      "title": "Image Test Hotel",
+      "slug": "image-test-hotel",
+      "location": "Image City",
+      "rooms": 5,
+      "rating": 4.1,
+      "images": [
+        "/uploads/1731410919496-test.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test City",
+      "rooms": 10,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 29,
+      "title": "New Hotel",
+      "slug": "new-hotel",
+      "location": "New City",
+      "rooms": 20,
+      "rating": 4.8,
+      "images": []
+    },
+    {
+      "id": 30,
+      "title": "Updated Hotel",
+      "slug": "old-hotel",
+      "location": "Old City",
+      "rooms": 15,
+      "rating": 4.2,
+      "images": []
+    },
+    {
+      "id": 31,
+      "title": "Image Test Hotel",
+      "slug": "image-test-hotel",
+      "location": "Image City",
+      "rooms": 5,
+      "rating": 4.1,
+      "images": [
+        "/uploads/1731413015486-test.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test City",
+      "rooms": 5,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 33,
+      "title": "New Hotel",
+      "slug": "new-hotel",
+      "location": "New City",
+      "rooms": 10,
+      "rating": 4,
+      "images": []
+    },
+    {
+      "id": 34,
+      "title": "Updated Hotel",
+      "slug": "hotel-to-update",
+      "location": "New Location",
+      "rooms": 6,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 35,
+      "title": "Image Test Hotel",
+      "slug": "image-test-hotel",
+      "location": "Image City",
+      "rooms": 5,
+      "rating": 4.1,
+      "images": [
+        "/uploads/1731413324236-test.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test City",
+      "rooms": 5,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 37,
+      "title": "New Hotel",
+      "slug": "new-hotel",
+      "location": "New City",
+      "rooms": 10,
+      "rating": 4,
+      "images": []
+    },
+    {
+      "id": 38,
+      "title": "Updated Hotel",
+      "slug": "hotel-to-update",
+      "location": "New Location",
+      "rooms": 6,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 39,
+      "title": "Image Test Hotel",
+      "slug": "image-test-hotel",
+      "location": "Image City",
+      "rooms": 5,
+      "rating": 4.1,
+      "images": [
+        "/uploads/1731413694754-test.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Hotel Sunshine",
+      "slug": "hotel-sunshine",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.8,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Hotel Sunshine41",
+      "slug": "hotel-sunshine41",
+      "location": "New York41",
+      "rooms": 100,
+      "rating": 4.8,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Hotel Sunshine43",
+      "slug": "hotel-sunshine42",
+      "location": "New York41",
+      "rooms": 103,
+      "rating": 4.8,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test City",
+      "rooms": 5,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 44,
+      "title": "New Hotel",
+      "slug": "new-hotel",
+      "location": "New City",
+      "rooms": 10,
+      "rating": 4,
+      "images": []
+    },
+    {
+      "id": 45,
+      "title": "Updated Hotel",
+      "slug": "hotel-to-update",
+      "location": "New Location",
+      "rooms": 6,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 46,
+      "title": "Image Test Hotel",
+      "slug": "image-test-hotel",
+      "location": "Image City",
+      "rooms": 5,
+      "rating": 4.1,
+      "images": []
+    },
+    {
+      "id": 47,
+      "title": "Hotel Sunshine11",
+      "slug": "hotel-sunshine11",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.8,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473500118-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473536454-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473536455-1731413015486-test.jpg"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test City",
+      "rooms": 5,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 49,
+      "title": "New Hotel",
+      "slug": "new-hotel",
+      "location": "New City",
+      "rooms": 10,
+      "rating": 4,
+      "images": []
+    },
+    {
+      "id": 50,
+      "title": "Updated Hotel",
+      "slug": "hotel-to-update",
+      "location": "New Location",
+      "rooms": 6,
+      "rating": 4.5,
+      "images": []
+    },
+    {
+      "id": 51,
+      "title": "Image Test Hotel",
+      "slug": "image-test-hotel",
+      "location": "Image City",
+      "rooms": 5,
+      "rating": 4.1,
+      "images": []
+    },
+    {
+      "id": 52,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test Location",
+      "rooms": 5,
+      "rating": 4,
+      "images": [],
+      "description": "A test hotel",
+      "guest_count": 2,
+      "bedroom_count": 1,
+      "bathroom_count": 1,
+      "amenities": [
+        "WiFi",
+        "Air Conditioning"
+      ],
+      "host_information": "Host details",
+      "address": "123 Test St",
+      "latitude": "0.000",
+      "longitude": "0.000",
+      "room_information": "Room details"
+    },
+    {
+      "id": 53,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test Location",
+      "rooms": 5,
+      "rating": 4,
+      "images": [],
+      "description": "A test hotel",
+      "guest_count": 2,
+      "bedroom_count": 1,
+      "bathroom_count": 1,
+      "amenities": [
+        "WiFi",
+        "Air Conditioning"
+      ],
+      "host_information": "Host details",
+      "address": "123 Test St",
+      "latitude": "0.000",
+      "longitude": "0.000",
+      "room_information": "Room details"
+    },
+    {
+      "id": 54,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test Location",
+      "rooms": 5,
+      "rating": 4,
+      "images": [],
+      "description": "A test hotel",
+      "guest_count": 2,
+      "bedroom_count": 1,
+      "bathroom_count": 1,
+      "amenities": [
+        "WiFi",
+        "Air Conditioning"
+      ],
+      "host_information": "Host details",
+      "address": "123 Test St",
+      "latitude": "0.000",
+      "longitude": "0.000",
+      "room_information": "Room details"
+    },
+    {
+      "id": 55,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test Location",
+      "rooms": 5,
+      "rating": 4,
+      "images": [],
+      "description": "A test hotel",
+      "guest_count": 2,
+      "bedroom_count": 1,
+      "bathroom_count": 1,
+      "amenities": [
+        "WiFi",
+        "Air Conditioning"
+      ],
+      "host_information": "Host details",
+      "address": "123 Test St",
+      "latitude": "0.000",
+      "longitude": "0.000",
+      "room_information": "Room details"
+    },
+    {
+      "id": 56,
+      "title": "Test Hotel",
+      "slug": "test-hotel",
+      "location": "Test Location",
+      "rooms": 5,
+      "rating": 4,
+      "images": [],
+      "description": "A test hotel",
+      "guest_count": 2,
+      "bedroom_count": 1,
+      "bathroom_count": 1,
+      "amenities": [
+        "WiFi",
+        "Air Conditioning"
+      ],
+      "host_information": "Host details",
+      "address": "123 Test St",
+      "latitude": "0.000",
+      "longitude": "0.000",
+      "room_information": "Room details"
+    },
+    {
+      "id": 57,
+      "title": "Hotel Sunshine57",
+      "slug": "hotel-sunshine11",
+      "location": "New York",
+      "rooms": 100,
+      "rating": 4.8,
+      "images": [
+        "/uploads/image1.jpg",
+        "/uploads/image2.jpg",
+        "/uploads/1731392783857-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473500118-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473536454-Screenshot from 2024-11-12 11-09-06.png",
+        "/uploads/1731473536455-1731413015486-test.jpg"
+      ],
+      "description": "A beautiful hotel located in the heart of New York.",
+      "guest_count": 200,
+      "bedroom_count": 50,
+      "bathroom_count": 25,
+      "amenities": [
+        "Free WiFi",
+        "Pool",
+        "Gym"
+      ],
+      "host_information": {
+        "host_name": "John Doe",
+        "contact": "john.doe@example.com"
+      },
+      "address": "123 Sunshine St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "room_information": [
+        {
+          "hotel_slug": "hotel-sunshine",
+          "room_slug": "room-1",
+          "room_image": "image1.jpg",
+          "room_title": "Ocean View Suite",
+          "bedroom_count": 2,
+          "bathroom_count": 1
+        }
+      ]
+    }
+  ]
+}
