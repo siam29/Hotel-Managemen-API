@@ -2,7 +2,7 @@
 
 A simple and powerful API for managing hotels, including functionality to get hotel details, add new hotels, update hotel information, and upload images for hotels. This project is built with **Node.js**, **Express.js**, and **Multer** for handling file uploads.
 
-## Project Structure
+##  📂 Project Structure
 
 ```plaintext
 PRACTICE/
@@ -18,7 +18,7 @@ PRACTICE/
 
 ```
 
-## Features
+## 🚀Features
 
 This project provides the following API endpoints:
 
@@ -84,7 +84,7 @@ This project provides the following API endpoints:
 - **server.test.js**: Contains test cases for the API endpoints. It uses Jest to test various routes and functionalities such as getting hotel details, creating new hotels, updating hotels, and uploading images. It ensures the correctness and reliability of the application.
 
 
-## Setup
+## ⚙️ Setup
 - **Initialize npm:** npm init -y
 - **Install dependencies:** npm install express cors dotenv
 - **Install development dependencies:**
@@ -95,8 +95,18 @@ This project provides the following API endpoints:
  - **Set up TypeScript by running:** npx tsc --init
 - **Configure nodemon.json for TypeScript support.**
 - **Add scripts in package.json for easy running**
-- **Unit Testing:** npm test
- 
+- **🧪Unit Testing:** npm test
+
+## 💬 Contact
+
+If you have any questions or want to discuss the project, feel free to contact me through the following:
+
+- 📧 **Email**: [your.email@example.com](mailto:almahmudsiam15@gmail.com)
+- 💼 **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- GitHub: [Your GitHub Profile](https://github.com/your-username)
+
+For contributions, open an issue or a pull request. I welcome your feedback!
+
 
 
 
