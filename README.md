@@ -2,6 +2,17 @@
 
 Welcome to the **Hotel Management API**, a RESTful service designed for managing hotel information, including CRUD operations for hotels and their images. This project demonstrates the use of Node.js, Express, and Multer for file uploads in a hotel management system.
 
+hotel-management-api/
+│
+├── uploads/                # Directory for storing uploaded images
+│   ├── image1.jpg          # Sample image 1
+│   ├── image2.jpg          # Sample image 2
+│   └── image3.jpg          # Sample image 3
+├── hotel-id.json           # The data file for storing hotel information
+├── server.js               # Main application code
+└── package.json            # npm package configuration file
+
+
 ## Table of Contents
 1. [About](#about)
 2. [Features](#features)
