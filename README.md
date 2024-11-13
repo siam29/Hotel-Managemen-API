@@ -102,7 +102,7 @@ This project provides the following API endpoints:
 If you have any questions or want to discuss the project, feel free to contact me through the following:
 
 - 📧 **Email**: [almahmudsiam15@gmail.com](mailto:your.email@example.com)
-- GitHub: [https://github.com/siam29](https://github.com/your-username)
+- GitHub: [github.com/siam29](https://github.com/your-username)
 
 For contributions, open an issue or a pull request. I welcome your feedback!
 
