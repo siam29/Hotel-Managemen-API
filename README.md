@@ -85,12 +85,18 @@ This project provides the following API endpoints:
 
 
 ## Setup
-- **Initialize npm:**: npm init -y
+- **Initialize npm:** npm init -y
 - **Install dependencies:** npm install express cors dotenv
 - **Install development dependencies:**
    - npm install -D typescript @types/express @types/node @types/cors ts-node nodemon
    - npm install multer uuid && npm install -D @types/multer @types/uuid
    - npm install --save-dev jest @types/jest ts-jest
+ - **Create the .env file with the following content:** PORT=8000
+ - **Set up TypeScript by running:** npx tsc --init
+- **Configure nodemon.json for TypeScript support.**
+- **Add scripts in package.json for easy running**
+- **Unit Testing:** npm test
+ 
 
 
 
