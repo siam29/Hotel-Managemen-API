@@ -76,10 +76,24 @@ This project provides the following API endpoints:
 ## Key Files
 
 - **server.js**: Contains the API logic for handling requests like creating, updating, and retrieving hotels, and uploading images. This is the main entry point of the application where the server is configured and started.
-  
+
 - **hotel-id.json**: A JSON file that stores the hotel data in a structured format. It holds all the information about the hotels, including titles, locations, room details, and image URLs.
 
 - **uploads/**: A directory that stores the images uploaded for each hotel. This folder holds the image files that are linked to hotel records and are served via the API.
+
+- **server.test.js**: Contains test cases for the API endpoints. It uses Jest to test various routes and functionalities such as getting hotel details, creating new hotels, updating hotels, and uploading images. It ensures the correctness and reliability of the application.
+
+
+## Setup
+- **Initialize npm:**: npm init -y
+- **Install dependencies:** npm install express cors dotenv
+- **Install development dependencies:**
+   npm install -D typescript @types/express @types/node @types/cors ts-node nodemon
+   npm install multer uuid && npm install -D @types/multer @types/uuid
+   npm install --save-dev jest @types/jest ts-jest
+
+
+
 
 
 ---
