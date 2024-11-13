@@ -88,9 +88,9 @@ This project provides the following API endpoints:
 - **Initialize npm:**: npm init -y
 - **Install dependencies:** npm install express cors dotenv
 - **Install development dependencies:**
-   npm install -D typescript @types/express @types/node @types/cors ts-node nodemon
-   npm install multer uuid && npm install -D @types/multer @types/uuid
-   npm install --save-dev jest @types/jest ts-jest
+   - npm install -D typescript @types/express @types/node @types/cors ts-node nodemon
+   - npm install multer uuid && npm install -D @types/multer @types/uuid
+   - npm install --save-dev jest @types/jest ts-jest
 
 
 
