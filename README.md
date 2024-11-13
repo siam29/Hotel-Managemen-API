@@ -70,5 +70,7 @@ PRACTICE/
 │   └── image3.jpg          # Sample image 3
 ├── hotel-id.json           # The data file for storing hotel information
 ├── server.js               # Main application code
-└── package.json            # npm package configuration file
+└── package.json           # npm package configuration file
+└── server.test.js
+
 ```
