@@ -14,6 +14,7 @@ hotel-management-api/
 ├── hotel-id.json           # The data file for storing hotel information
 ├── server.js               # Main application code
 └── package.json            # npm package configuration file
+```
 
 
 ## Table of Contents
