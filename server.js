@@ -6,7 +6,7 @@ const app = express();
 const PORT = 8000; // Set to match your current port
 app.use(express.json());
 
-const DATA_FILE = "./hotels.json";
+const DATA_FILE = "./hotel-id.json";
 const UPLOAD_DIR = "./uploads"; // Directory for storing images
 
 // Ensure the upload directory exists
